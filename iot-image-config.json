@@ -1,0 +1,18 @@
+{
+  "name": "iot-image-config",
+  "blueprint": {
+    "customizations": {
+      "user": [
+        {
+          "name": "achilleas",
+          "password": "password42",
+          "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPqEtsCdSozq0DT8sOazpizsBP65Ni6SMqrQA85Wnfs1 achilleas@Jack",
+          "groups": ["wheel"]
+        }
+      ]
+    }
+  },
+  "ostree": {
+    "url": "http://localhost:8080/repo"
+  }
+}

@@ -1,0 +1,15 @@
+[allowlist]
+description = "Test keys and passwords that should not be reported as leaks"
+paths = [
+    '''keys/key''',
+    '''ostree-ng.sh''',
+    '''none/fedora_39-x86_64-iot_container-base/manifest.json''',
+    '''none/fedora_39-x86_64-iot_container-upgrade/manifest.json''',
+    '''none/fedora_39-x86_64-iot_qcow2_image-deployment/manifest.json''',
+    '''packaged/fedora_39-x86_64-iot_container-base/manifest.json''',
+    '''packaged/fedora_39-x86_64-iot_container-upgrade/manifest.json''',
+    '''packaged/fedora_39-x86_64-iot_qcow2_image-deployment/manifest.json''',
+    '''static/fedora_39-x86_64-iot_container-base/manifest.json''',
+    '''static/fedora_39-x86_64-iot_container-upgrade/manifest.json''',
+    '''static/fedora_39-x86_64-iot_qcow2_image-deployment/manifest.json''',
+]

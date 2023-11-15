@@ -1,0 +1,20 @@
+{
+  "name": "upgrade",
+  "blueprint": {
+    "packages": [
+      {
+        "name": "vim-enhanced"
+      },
+      {
+        "name": "tmux"
+      },
+      {
+        "name": "zsh"
+      }
+    ]
+  },
+  "ostree": {
+    "url": "http://localhost:8080/repo",
+    "parent": "fedora/39/x86_64/iot"
+  }
+}
