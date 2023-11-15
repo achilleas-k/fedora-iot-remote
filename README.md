@@ -1,5 +1,7 @@
 # Fedora IoT remote configuration
 
+**See [this comment](https://github.com/osbuild/images/pull/95/files#r1394844807) for an explanation of the root cause of this issue.**
+
 Manifests and scripts to reproduce an issue with the packaged remote configuration for ostree-based Fedora systems built by Image Builder.
 
 Large files (containers and images) can be found in this Google Drive folder:
