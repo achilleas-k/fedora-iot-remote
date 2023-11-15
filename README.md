@@ -37,6 +37,7 @@ There are three sets of manifests:
 **None**: This is build with **osbuild/images@iot-remote** but the package is removed from the package list.  No remote is configured in the image.  This is meant to control for any other changes made in the `iot-remote` branch.
 
 The `rpm-ostree upgrade` command will detect and pull an upgrade only when an ostree remote is not configured through a package.  It works in the **Static** and the **None** case, but not the **Packaged** case.
+For the **Packaged** case, the command responds with `No upgrade available`.
 
 ## Detailed steps
 
