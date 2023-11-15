@@ -40,8 +40,9 @@ The `rpm-ostree upgrade` command will detect and pull an upgrade only when an os
 
 ## Detailed steps
 
-The images are already built and available in this folder, so build steps can be skipped, but they are described for full clarity.
+The images are already built and available in the linked Google Drive folder, so build steps can be skipped, but they are described for full clarity.
 With the images available, you can skip to step 5.
+If you don't have access to the images, you can build them without needing the code using the manifests and osbuild.
 We will use the code from my fork that includes the `iot-remote` branch.
 
 ### Static
