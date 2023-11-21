@@ -1,13 +1,18 @@
 # Fedora IoT remote configuration
 
-**See [this comment](https://github.com/osbuild/images/pull/95/files#r1394844807) for an explanation of the root cause of this issue.**
+
+**NOTICE**: This was intended as a reproducer for an issue I was experiencing with `rpm-ostree upgrade` when I neglected to configure the remote name in the deployment.  The issue is now fixed.
+
+**See [this comment](https://github.com/osbuild/images/pull/95#discussion_r1394844807) for an explanation of the root cause of this issue.**
+
+----
 
 Manifests and scripts to reproduce an issue with the packaged remote configuration for ostree-based Fedora systems built by Image Builder.
 
 Large files (containers and images) can be found in this Google Drive folder:
 https://drive.google.com/drive/folders/1pC0a5lggb3kt3eiB2j9eegFX-gA42W0b?usp=sharing
 
-_NOTE: The **iot-container** image type is an ostree repo with a single commit in a container running nginx to serve it.
+_NOTE: The **iot-container** image type is an ostree repo with a single commit in a container running nginx to serve it._
 
 ## Steps to reproduce
 
